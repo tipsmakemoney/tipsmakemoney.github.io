@@ -9,7 +9,6 @@
 </Group>
 -----------------------
 */
-
 html,
 body,
 .section,
@@ -6377,3 +6376,177 @@ pre .cl {
     background-color: transparent;
 }
 
+/*------Layout (No Edit)----------*/
+body#layout #body-wrapper {
+padding: 0;
+width: 800px
+}
+body#layout #loader {
+display: none
+}
+body#layout .ty-slide-show {
+opacity: 1
+}
+body#layout .theme-opt {
+display: block !important
+}
+body#layout .theme-opt .option {
+background: #333;
+border-color: #222
+}
+body#layout .theme-opt .option.section h4 {
+color: #fff !important
+}
+body#layout .section h4 {
+color: #333 !important;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1.5px
+}
+body#layout .top-bar-social,
+body#layout .top-bar-menu {
+width: 47.3%
+}
+body#layout .headerleft {
+width: 250px
+}
+body#layout .headerright {
+width: 460px
+}
+body#layout .ticker .widget {
+height: auto;
+overflow: visible
+}
+body#layout .ticker .widget-content {
+height: auto
+}
+body#layout .post-author-widget,
+body#layout .post-author-social {
+display: block;
+visibility: visible;
+height: auto;
+width: 42.43%;
+float: left
+}
+body#layout .post-author-social {
+float: right
+}
+body#layout .tm-menu,
+body#layout .menu-wrap {
+height: auto
+}
+body#layout #menu {
+display: block;
+visibility: visible;
+height: auto;
+float: none
+}
+body#layout .hub-home,
+body#layout .menu-right {
+display: none
+}
+body#layout #menu .widget {
+display: block;
+visibility: visible
+}
+body#layout .preload {
+opacity: 1
+}
+body#layout #content-wrapper {
+margin: 0 auto;
+padding: 0
+}
+body#layout #adwidegt1 .widget,
+body#layout #adwidegt2 .widget,
+body#layout #adwidegt3 .widget {
+display: block
+}
+body#layout .tyright-wrapper {
+width: 50%;
+float: right
+}
+body#layout .tyleft-wrapper {
+width: 50%;
+float: left
+}
+body#layout #lowerbar-wrapper {
+width: 33.33%;
+float: left
+}
+body#layout #main-wrapper {
+float: left;
+width: 70%;
+margin: 0;
+padding: 0
+}
+body#layout #sidebar-wrapper {
+float: right;
+width: 30%;
+margin: 0;
+padding: 0
+}
+body#layout .sidebar.section {
+background-color: #ff7f00 !important;
+border: 1px solid #ca7900
+}
+body#layout .sidetabs .section {
+background-color: #ffd400 !important;
+border: 1px solid #dcbc20
+}
+body#layout #sidebar-wrapper .section .widget-content {
+border-color: #5a7ea2 !important
+}
+body#layout .section .draggable-widget .widget-wrap2 {
+background-color: #0099e5 !important
+}
+body#layout #main-wrapper #main {
+margin-right: 4px;
+background-color: #5a7ea2;
+border-color: #34495e
+}
+body#layout #main-wrapper #main h4 {
+color: #fff !important
+}
+body#layout .layout-widget-description {
+display: none !important
+}
+body#layout #Blog1 .widget-content {
+border-color: #34495e
+}
+body#layout .add_widget {
+background: #ebebeb;
+border: 1px solid #dddddd
+}
+body#layout .FollowByEmail .widget-content:before {
+display: none
+}
+body#layout .bottom-bar-social {
+display: block;
+float: none
+}
+body#layout #lower,
+body#layout #lower-wrapper,
+body#layout #lowerbar-wrapper,
+body#layout #ty_footer,
+body#layout #header-wrappers {
+padding: 0
+}
+body#layout .bot-menu,
+body#layout .bottom-bar-social {
+float: left;
+width: 44.735%
+}
+body#layout .editlink {
+background: #0099e5;
+color: #fff !important;
+padding: 0 3px;
+line-height: 18px;
+border: 1px solid #08f;
+border-radius: 3px;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-decoration: none !important
+}
+body#layout .menu-tab {
+display: none
+/*------Layout (end)----------*/

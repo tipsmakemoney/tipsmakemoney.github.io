@@ -278,7 +278,7 @@ body {
     font-size: 18px;
     font-weight: normal;
     line-height: 21px;
-    background: $(body.background)
+    background: #ffffff;
 }
 
 #body-wrapper {

@@ -6550,3 +6550,64 @@ text-decoration: none !important
 body#layout .menu-tab {
 display: none
 /*------Layout (end)----------*/
+
+.btnt-sitemap { border-bottom: 4px solid #444; }
+.btnt-toc-wrap { display: inline-block; width: 100%; }
+.btnt-toc-wrap .btnt-cat { background: #333; border-radius: 2px; color: #fff; font-size: 15px; font-weight: bold; padding: 10px 20px; text-transform: capitalize; }
+.btnt-toc::before { background: #333; bottom: 0; content: &quot;&quot;; left: 20%; margin-left: -10px; position: absolute; top: 0; width: 4px; }
+.btnt-toc { margin: 0; padding: 30px 20px; position: relative; }
+.btnt-toc li { list-style: none; margin: 0; padding: 0; position: relative; }
+.btnt-toc &gt; li .toc-date { color: #999; display: block; font-size: 14px; font-weight: bold; position: absolute; text-transform: uppercase; top: 25px; width: 15%; }
+.btnt-toc &gt; li .btnt-icon { background: #fff; border-radius: 50%; box-shadow: 0 0 0 4px #333; color: #fff; font-size: 1.4em; font-style: normal; font-variant: normal; font-weight: normal; height: 10px; left: 18.6%; line-height: 10px; margin: 0 0 0 -25px; position: absolute; text-align: center; text-transform: none; top: 30px; width: 10px; }
+.btnt-toc &gt; li .btnt-post::after { border-color: transparent #f5f5f5 transparent transparent; border-style: solid; border-width: 10px; content: &quot; &quot;; height: 0; pointer-events: none; position: absolute; right: 100%; top: auto; width: 0; }
+.btnt-toc &gt; li .btnt-post { background: #f5f5f5; border-radius: 5px; display: block; font-size: 15px; line-height: 15px; margin: 0 0 15px 23%; padding: 25px 30px; position: relative; }
+.btnt-toc &gt; li .btnt-post a { color: #333; font-weight: bold;}
+.btnt-toc &gt; li .btnt-post a:hover { color: #999; }
+	
+<!--page 404 -->	
+.post-404 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.actions-404 {
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+.ops-404 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 400;
+letter-spacing:1.5px;
+}
+.ops-404 span {
+    font-weight: 700;
+}
+.title-404 {
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:$maincolor;
+}
+.link-404 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#blog-pager, #sidebar-wrapper,.status-msg-wrap {
+    display: none;
+}
+.status-msg-border {
+         border: 0 !important;
+       }
+
+       .status-msg-bg {
+         background-color: #fff;
+       }
+#main-wrapper {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}	
+	

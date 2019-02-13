@@ -5156,9 +5156,9 @@ select#BlogArchive1_ArchiveMenu {
 }
 
 .PopularPosts ul li a {
-    color: #2e2e2e;
+    color: #039bf4;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.4em;
     transition: color .3s;
     letter-spacing: 1.5px

@@ -753,7 +753,7 @@ ul#nav1 {
 }
 
 #menu .widget {
-    display: none
+    display: inline-block;
 }
 
 #menu {

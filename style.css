@@ -893,27 +893,14 @@ ul#nav1 {
 }
 
 
-/* Body Styles */
+/* top menu */
+
 body { 
   margin: 0px; 
   padding: 0px; 
   font-family: 'Open Sans', sans-serif; 
   background-color: #fff;  
 }
-
-
-
-header.dark blockquote { color:#fff; }
-header.light blockquote { color:#000; }
-
-blockquote { 
-  max-width: 1000px; 
-  margin:0 auto;
-  font-size: 16px; 
-  border-left: 0px;
-  padding:  20px ;
-}
-
 
 header.dark { background-color: #444; }
 header.light { background-color: #fff; }
@@ -961,7 +948,9 @@ ul.main-nav > li ul.sub-menu-lists > li {
 }
 
 ul.main-nav > li ul.sub-menu-lists > li > a {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
+
 }
 
 .ic {
@@ -1063,7 +1052,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     right: 0px;
     top: 0px;
     width: 0px;
-    background-color:rgba(0,0,0,1);
+    background-color: #03A9F4;
     height: 100%;
     overflow: auto;
     /*CSS animation applied : Slide from Right*/
@@ -1077,7 +1066,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     transition-duration: 0.6s;
   }
   
-  .ic.menu:focus ~ .main-nav { width: 300px; background-color:rgba(0,0,0,1); }
+  .ic.menu:focus ~ .main-nav { width: 300px; background-color: #0b5394; }
   
   ul.main-nav > * { 
     -webkit-transition-property: opacity;
@@ -1096,7 +1085,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   ul.main-nav > li:first-child { border-radius: 0px; }
   ul.main-nav > li {
     display: block;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #ffffff;
   }
   
   ul.main-nav > li > a { font-weight: 600; }
@@ -1225,7 +1214,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
   .banners-area { border-top: 1px solid #ccc; }
 }
-
 
 
 .ty-ran-yard {

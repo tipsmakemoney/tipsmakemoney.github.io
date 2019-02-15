@@ -690,17 +690,16 @@ body {
 .headerleft h1 a:hover,
 .headerleft h1 a:visited {
     text-transform: capitalize;
-    font-style: italic;
     letter-spacing: 1px;
-    text-shadow: 5px 5px 0 #eee;
-    font-family: 'Satisfy', cursive;
-    color: #444444;
+    text-shadow: 3px 2px 0 #000000;
+    font-family: Arial Black, Gadget, sans-serif;
+    color: #00a2dd;
     font-size: 52px;
     font-weight: normal;
     line-height: 1.2em;
     margin: 0;
     padding: 0 0 5px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .headerleft h3 {

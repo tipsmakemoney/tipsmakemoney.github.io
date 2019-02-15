@@ -3736,12 +3736,13 @@ article {
     top: 0;
     left: 0;
     padding: 8px 12px 6px;
-    background: #0e3fff;
+    background: #00a2dd;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
-    z-index: 9
+    z-index: 1
 }
 
 .index .post-labels a,

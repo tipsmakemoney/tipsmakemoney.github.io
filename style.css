@@ -5752,10 +5752,10 @@ select#BlogArchive1_ArchiveMenu {
 @media only screen and (max-width: 480px) {
     .top-bar-social #social a {
         display: block;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        font-size: 12px
+        width: 26px;
+        height: 30px;
+        line-height: 35px;
+        font-size: 25px;
     }
     .ticker .widget-content li {
         float: none;

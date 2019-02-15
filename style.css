@@ -243,13 +243,15 @@ h6 {
 
 img {
     max-width: 100%;
+    height: auto;
     vertical-align: middle;
     border: 0
 }
 
 .widget iframe,
 .widget img {
-    max-width: 100%
+    max-width: 100%;
+   height: auto;   
 }
 
 .status-msg-border {
@@ -1867,13 +1869,16 @@ ul.newsticker {
 }
 
 .sidebar h2 {
-    padding: 12px 0;
-    margin-bottom: -2px;
-    display: inline-block;
-    color: #000;
-    font-size: 16px;
+    display: block;
+    background: #00a2dd;
+    color: #ffffff;
+    font-size: 18px;
     font-weight: 700;
-    text-transform: capitalize
+    text-transform: capitalize;
+    text-align: center !important;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .sidebar ul,

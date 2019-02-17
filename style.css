@@ -6935,7 +6935,7 @@ letter-spacing:1.5px;
     font-size: 200px;
     font-weight: 700;
     line-height: 1.1;
-    color:$maincolor;
+    color:#000000;
 }
 .link-404 {
     font-size: 18px;
@@ -6957,4 +6957,36 @@ letter-spacing:1.5px;
     width: 100%;
     max-width: 100%;
 }	
-	
+<!-- -->
+#blog-pager {overflow: visible}
+.showpageOf {display:none}
+span.showpagePoint {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .6em .8em;
+    margin: 0 .2em;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.25em;
+    background-color: #64a281;
+    border-color: #64a281;
+    color: #ffffff;
+    pointer-events: none;
+}
+span.showpageNum, span.showpage {
+    margin: 0 .2em;
+}
+.showpageNum a, .showpage a {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .6em .8em;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.25em;
+    color: #2E4057;
+    text-decoration: none;
+}	

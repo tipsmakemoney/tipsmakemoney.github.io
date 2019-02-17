@@ -1855,6 +1855,23 @@ ul.newsticker {
     color: #fff
 }
 
+.author-profile {
+    margin: 5px 5px 0 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #1da1f2;
+    padding: 10px;
+}
+.author-profile img {
+    border: 1px solid #efefef;
+    float: left;
+    margin-right: 5px;
+    width: 12%;
+    border-radius: 8%;
+    background: #3b5998;
+}
+
 .sidebar .widget {
     margin-bottom: 20px;
     position: relative

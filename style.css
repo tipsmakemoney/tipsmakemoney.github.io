@@ -4942,7 +4942,8 @@ iframe.blogger-comment-from-post {
 
 .social-counter .widget-content {
     padding: 10px 0;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;    
 }
 
 .social-counter ul {
